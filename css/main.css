@@ -7,15 +7,19 @@
 @import "./footer.css";
 
 /*Eléments principaux*/
+html{
+    background:white;
+
+}
+
 
 body{
-    max-width: 900px;
+    max-width: 1200px;
     max-height: auto;
     background-color: white;
     font-family: 'roboto';
     font-size: 16px;
     color: black;
     margin: auto;
-
 }
 
