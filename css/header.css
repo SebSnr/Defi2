@@ -1,16 +1,13 @@
 
 header{
-    /*border: 2px solid red;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-height: 130px;
     overflow: hidden;
-    
-
 }
 
-#logo img{
+#header__logo img{
     width: 350px;
     height: auto;
 }
@@ -18,7 +15,6 @@ header{
 header ul {
     display: flex;
     list-style: none;
-    
 }
 
 header li{
@@ -26,8 +22,9 @@ header li{
     margin-right: 1em;
 }
 
-header a{
-text-decoration: none;
-color: black;
+#header__menu a{
+    color: black;
 }
+
+
 

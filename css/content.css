@@ -9,39 +9,39 @@
     margin-top: 1rem;
 }
 
-#banniere_image img{
+#banniere__image img{
     max-width: 1200px;
     height: auto;
    }
 
-#banniere_titre{
+#banniere__titre{
     position: absolute;    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
 
-#banniere_titre img{
+#banniere__titre img{
     width: 13rem;
 }
 
-#banniere_titre h1{
+#banniere__titre h1{
     font-size: 1.5rem;
+    color: white;
 }
-
 
 
 /* 2ème partie de content */
 
 
-
-.illustration h1, h2, h3 {
+.illustration h1 {
     text-transform: uppercase;       
     font-size: 1.5rem;
     margin: auto auto;
+    color: black;
 }
 
-#presentation{
+#presentation {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -70,13 +70,17 @@
 #citation {
     text-align: center;
     max-width: 450px;
-    }
+    
+}
 
 #citation p {
     color: #575757;
     font-size: 0.9rem;
+    
 }
-
+cite {
+    font-style: normal;
+}
 
 
 
