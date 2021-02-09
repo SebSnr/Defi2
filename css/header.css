@@ -6,6 +6,7 @@ header{
     align-items: center;
     max-height: 130px;
     overflow: hidden;
+    
 
 }
 
@@ -22,9 +23,11 @@ header ul {
 
 header li{
     margin-left: 3em;
+    margin-right: 1em;
 }
 
 header a{
 text-decoration: none;
-color: white;
+color: black;
 }
+
