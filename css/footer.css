@@ -1,50 +1,53 @@
-
-footer{
-background-color: #6100a6;
+footer {
+  background-color: #6100a6;
 }
 
-#footer__presentation {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: white;
-    font-size: 0.9rem;
-    text-align: center;
+.footer__presentation {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-#footer__logo{
-    display: flex;
-    justify-content: space-around;
-    max-width: 400px;
-    margin: auto auto;
-    
+.footer__logo {
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px;
+  margin: auto auto;
 }
 
-#footer__logo img {
-    width: 40px;    
-    fill: #bdaed8; /*ne fonctionne pas e remplissage de des logos avec fill*/
+.footer__logo img {
+  width: 40px;
+  fill: red; /*ne fonctionne pas, le remplissage de des logos avec fill*/
 }
 
+.footer__logo svg {
+  width: 400px;
+  fill: red; /*ne fonctionne pas, le remplissage de des logos avec fill*/
+}
 
 /* Menu footer */
 
-
-#footer__menu {    
-        display: flex;
-    justify-content: space-around;
-    padding-bottom: 2rem;
-    padding-top: 2rem;;
-} 
-
-h1 {
-    font-size: 1rem ;
-    color:#bdaed8;
+.footer__menu {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
-li, a, address{
-    color: white;
-    font-style: normal;
+h1 {
+  font-size: 1rem;
+  color: #bdaed8;
+}
+
+li,
+a,
+address {
+  color: white;
+  font-style: normal;
 }
 
 address {
-    padding-left: 30px;
+  padding-left: 30px;
 }
