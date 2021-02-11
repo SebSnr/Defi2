@@ -1,30 +1,26 @@
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-height: 130px;
-    overflow: hidden;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 130px;
+  overflow: hidden;
 }
 
-#header__logo img{
-    width: 350px;
-    height: auto;
+.header__logo img {
+  width: 350px;
+  height: auto;
 }
 
 header ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
-header li{
-    margin-left: 3em;
-    margin-right: 1em;
+header li {
+  margin-left: 3em;
+  margin-right: 1em;
 }
 
-#header__menu a{
-    color: black;
+.header__menu a {
+  color: black;
 }
-
-
-

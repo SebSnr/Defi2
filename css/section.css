@@ -1,137 +1,74 @@
-
-/* 1ere partie de content */
-
-
-#banniere{
-    position: relative;
-    text-align: center ;
-    color: white;
-    margin-top: 1rem;
+.banniere {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
 }
 
-#banniere__image img{
-    max-width: 1200px;
-    height: auto;
-   }
-
-#banniere__titre{
-    position: absolute;    
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+.banniere__image img {
+  max-width: 1200px;
+  height: auto;
 }
 
-#banniere__titre img{
-    width: 13rem;
+.banniere__titre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#banniere__titre h1{
-    font-size: 1.5rem;
-    color: white;
+.banniere__titre img {
+  width: 13rem;
 }
 
+.banniere__titre h1 {
+  font-size: 1.5rem;
+  color: white;
+}
 
-/* 2ème partie de content */
-
+/* 2ème partie */
 
 .illustration h1 {
-    text-transform: uppercase;       
-    font-size: 1.5rem;
-    margin: auto auto;
-    color: black;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: auto auto;
+  color: black;
 }
 
-#presentation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 550px;
-    align-items: center;
-    padding: 0 200px;
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 550px;
+  align-items: center;
+  padding: 0 200px;
 }
 
-#presentation__text {
-   
-    font-size: 1.4rem;
-    text-align: center;
-    color: #575757;
+.presentation__text {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #575757;
 }
 
 #illustration {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;    
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .illustration p {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
-#citation {
-    text-align: center;
-    max-width: 450px;
-    
+.citation {
+  text-align: center;
+  max-width: 450px;
 }
 
-#citation p {
-    color: #575757;
-    font-size: 0.9rem;
-    
+.citation p {
+  color: #575757;
+  font-size: 0.9rem;
 }
 cite {
-    font-style: normal;
+  font-style: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
